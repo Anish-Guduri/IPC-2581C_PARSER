@@ -1,0 +1,3 @@
+/home/anish/anish/IPC_parser/build/CMakeFiles/IPC_PARSER.dir
+/home/anish/anish/IPC_parser/build/CMakeFiles/edit_cache.dir
+/home/anish/anish/IPC_parser/build/CMakeFiles/rebuild_cache.dir

@@ -10,7 +10,7 @@ using namespace tinyxml2;
 int main() {
     // Load the XML file
     XMLDocument xmlDoc;
-    if (xmlDoc.LoadFile("testcase10-RevC-Assembly.xml") != XML_SUCCESS) {
+    if (xmlDoc.LoadFile("/home/anish/anish/IPC_parser/testcase10-RevC-Assembly.xml") != XML_SUCCESS) {
         cerr << "Error: Unable to load XML file!" << endl;
         return -1;
     }

@@ -1,25 +1,26 @@
+# Minimum version of CMake
 cmake_minimum_required(VERSION 3.10)
 
-# Set the project name
-project(XmlParser)
+# Project name
+project(IPC_PARSER)
 
-# Set the C++ standard to C++17
+# Set the C++ standard
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add the executable
-add_executable(XmlParser 
+# Add the source files
+set(SOURCE_FILES
     parser.cpp 
     tinyxml2.cpp 
     TreeNode.cpp 
     XmlTreeBuilder.cpp
 )
 
-# If you need to link any libraries, uncomment and specify them here
-# target_link_libraries(XmlParser <LIBRARY_NAME>)
+# Add the executable
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
-# Include directories for header files if needed (e.g., for tinyxml2)
-# include_directories(/path/to/include)
+# Add compile options (if needed)
+target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -Werror)
 
-# If using any external libraries or dependencies, you can also find and link them:
-# find_package(SomeLibrary REQUIRED)
-# target_link_libraries(XmlParser SomeLibrary)
+# Optional: Include directories if needed
+# target_include_directories(${PROJECT_NAME} PRIVATE include)
