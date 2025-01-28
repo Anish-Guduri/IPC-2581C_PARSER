@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/IPC_PARSER.dir/parser.cpp.o CMakeFiles/IPC_PARSER.dir/tinyxml2.cpp.o CMakeFiles/IPC_PARSER.dir/TreeNode.cpp.o CMakeFiles/IPC_PARSER.dir/XmlTreeBuilder.cpp.o -o IPC_PARSER 

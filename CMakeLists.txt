@@ -10,10 +10,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the source files
 set(SOURCE_FILES
-    parser.cpp 
-    tinyxml2.cpp 
-    TreeNode.cpp 
-    XmlTreeBuilder.cpp
+    ./src/parser.cpp 
+    ./src/tinyxml2.cpp 
+    ./src/TreeNode.cpp 
+    ./src/XmlTreeBuilder.cpp
+    ./src/xml_validator.cpp
 )
 
 # Add the executable

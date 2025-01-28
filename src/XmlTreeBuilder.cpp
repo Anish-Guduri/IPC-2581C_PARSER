@@ -1,4 +1,4 @@
-#include "XmlTreeBuilder.h"
+#include "../include/XmlTreeBuilder.h"
 
 // Parse an XML element into a TreeNode
 TreeNode XmlTreeBuilder::parseXmlElement(XMLElement* element) {
